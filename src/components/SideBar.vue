@@ -115,7 +115,7 @@ setup(){
 </script>
 <style lang='less' scoped>
 .bg {
-    background-color: pink;
+    background-color: orange;
     min-height: calc(100vh - 60px);
     height: 100%;
 }

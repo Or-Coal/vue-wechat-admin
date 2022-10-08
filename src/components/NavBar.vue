@@ -35,7 +35,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: pink;
+    background-color: orange;
     color: white;
 
     .left {
