@@ -53,6 +53,24 @@ const router = createRouter({
           component: ()=>import('@/views/System/menu2.vue'),
           meta: { requiresAuth: true },
         },
+        {
+          path: '/account/issue',
+          name: 'AccountIssue',
+          component: ()=>import('@/views/Account/issue.vue'),
+          meta: { requiresAuth: true },
+        },
+        {
+          path: '/account/indent',
+          name: 'AccountIndent',
+          component: ()=>import('@/views/Account/indent.vue'),
+          meta: { requiresAuth: true },
+        },
+        {
+          path: '/account/product',
+          name: 'AccountProduct',
+          component: ()=>import('@/views/Account/product.vue'),
+          meta: { requiresAuth: true },
+        },
       ]
     },
   ]

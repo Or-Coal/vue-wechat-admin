@@ -16,13 +16,13 @@
                     </el-icon>
                     <span>商品分类</span>
                 </el-menu-item>
-                <el-menu-item index="/article/list">
+                <el-menu-item index="/account/issue">
                     <el-icon>
                         <Memo />
                     </el-icon>
                     <span>发布商品</span>
                 </el-menu-item>
-                <el-menu-item index="/article/tag">
+                <el-menu-item index="/account/product">
                     <el-icon>
                         <Discount />
                     </el-icon>
@@ -38,7 +38,7 @@
                     </el-icon>
                     <span>订单管理</span>
                 </template>
-                <el-menu-item index="/notice/release">
+                <el-menu-item index="/account/indent">
                     <el-icon>
                         <Calendar />
                     </el-icon>

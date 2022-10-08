@@ -4,12 +4,15 @@ import App from './App.vue'
 import router from './router'
 import './assets/css/main.css'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
-
+// 中文包
+import locale from 'element-plus/lib/locale/lang/zh-cn'
+import ElementPlus from 'element-plus'
 //图标组件
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 import '@/Plugins/axios.config.js'
 const app = createApp(App)
+app.use(ElementPlus, { locale });
 const pinia = createPinia()
 // 全局注册所有图标
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
